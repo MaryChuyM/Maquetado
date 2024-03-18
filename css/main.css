@@ -1,0 +1,128 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.side-panel-container {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.side-panel {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 100%;
+}
+.side-panel h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.side-panel p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+}
+.side-panel a {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.side-panel a:hover {
+  background-color: #0062cc;
+}
+
+.nav-links-container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 300px;
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.nav-links-container a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+.nav-links-container a:hover {
+  color: #007bff;
+}
+
+.footer-links-container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 300px;
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.footer-links-container a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+.footer-links-container a:hover {
+  color: #007bff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: white;
+}
+.social-icons a:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+  .side-panel-container {
+    width: 100%;
+    margin-right: 0;
+  }
+  .nav-links-container {
+    width: 100%;
+  }
+  .social-icons {
+    margin-top: 30px;
+  }
+}
