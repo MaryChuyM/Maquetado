@@ -539,4 +539,138 @@ h3 {
 
 .contenedor0 {
   border: 2px solid gray;
+}
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  height: 54px;
+}
+
+.containerNavBar {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.flex ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#img {
+  max-width: 100%;
+  width: 100px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+  position: fixed;
+  border-radius: 14px;
+  border-right: 60px;
+  left: 120px;
+  top: 15px;
+  padding-bottom: 1rem;
+}
+
+#bar {
+  resize: vertical;
+  width: 400px;
+  height: 14px;
+  display: flex;
+  padding: 14px;
+  border-radius: 8px;
+  position: fixed;
+  left: 200px;
+  top: 14px;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.box {
+  padding: 10px;
+  font-weight: 800;
+  border: 2px solid rgb(36, 139, 223);
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: rgb(36, 139, 223);
+  position: relative;
+  margin-right: 130px;
+  margin-bottom: 10px;
+}
+
+.log {
+  color: rgb(132, 131, 131);
+  right: 40px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (hover: hover) {
+  .box:hover {
+    color: #f6f6f6;
+    background-color: rgb(36, 139, 223);
+  }
+}
+@media (max-width: 910px) {
+  .log {
+    display: none;
+  }
+}
+@media (hover: hover) {
+  .log:hover {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 1200px) {
+  #bar {
+    width: 30%;
+  }
+}
+@media (max-width: 710px) {
+  #bar {
+    display: none;
+  }
+}
+@media (max-width: 710px) {
+  #img {
+    max-width: 100%;
+    width: 80px;
+    height: 40px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    vertical-align: middle;
+    display: inline-block;
+    position: fixed;
+    border-radius: 14px;
+    border-right: 60px;
+    left: 35px;
+    top: 15px;
+  }
+}
+@media (max-width: 710px) {
+  .box {
+    padding: 10px;
+    font-weight: 800;
+    border: 2px solid rgb(36, 139, 223);
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    color: rgb(36, 139, 223);
+    position: relative;
+    margin-right: 22px;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */
