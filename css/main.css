@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -23,28 +23,28 @@ body {
 }
 
 .side-panel {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  color: #ffffff;
+  color: #000000;
   width: 100%;
 }
 .side-panel h3 {
   font-size: 1.3rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 .side-panel p {
   font-size: 0.9rem;
   line-height: 1.5;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 .side-panel a {
   display: block;
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -57,10 +57,10 @@ body {
 }
 
 .nav-links-container {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  color: #ffffff;
+  color: #000000;
   width: 300px;
   align-self: flex-start;
   font-size: 1.5rem;
@@ -79,10 +79,10 @@ body {
 }
 
 .footer-links-container {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  color: #ffffff;
+  color: #000000;
   width: 300px;
   align-self: flex-start;
   font-size: 1.5rem;
@@ -108,7 +108,7 @@ body {
 
 .social-icons a {
   font-size: 30px;
-  color: white;
+  color: rgb(1, 1, 1);
 }
 .social-icons a:hover {
   color: blue;
@@ -674,4 +674,4 @@ nav {
     margin-right: 22px;
     margin-bottom: 10px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
