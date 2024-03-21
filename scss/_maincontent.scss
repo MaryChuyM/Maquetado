@@ -24,7 +24,7 @@ body{
 /* estilos de la seccion de en medio*/
 
 .containerCenter{
-    width: 50%;
+    width: 52%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -35,7 +35,7 @@ body{
 
 .containerLink{
     display: flex;
-    padding: 2rem 1rem;
+    padding: .5rem .5rem 1rem;
     padding-left: 0;
     font-size: 1.2rem;
     gap: 1rem;
@@ -43,12 +43,12 @@ body{
 
 .Relevant{
     font-weight: bold;
-    padding: .5rem 1rem;
+    padding: .5rem .5rem .5rem;
     border-radius: 5px;
 }
 
 .Latest,.Top{
-    padding: .5rem 1rem;
+    padding: .5rem .5rem .5rem;
     border-radius: 5px;
     color: gray;
 }
