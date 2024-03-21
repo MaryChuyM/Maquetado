@@ -1,16 +1,20 @@
 .aside2 {
-    width: 25%;
-    height: 700px;
+  
+    height: 500px;
     display: block;
     background-color: white;
-    flex: 20;
-    flex-grow: 1px;
+    
+    padding-left: 15px;
+
 }
 .contenedor {
-width: 90px;
+width: 80px;
 height: 700;
-margin-top: 2px;
+margin-top: 10px;
+margin-left: 20px;
 border: 1px solid black;
+border-radius: 30px;
+
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,7 +24,8 @@ h3 {
 width: 25%;
 }
 .container {
-    width: 50%;
+    width: 300px;
+    margin-right: 20px;
 }
 main {
     display: flex;
@@ -36,7 +41,7 @@ h4 {
 .parr1 {
     color:black;
     font-family: Arial;
-    margin: 10px;
+    margin: 20px;
 }
 .comment {
     color:gray;
@@ -56,6 +61,7 @@ h4 {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 85%;
+    margin-bottom: 5px;
     cursor: pointer;
 }
 .Coding-link {
@@ -67,7 +73,7 @@ h4 {
     margin: 10px;
 }
 h3 {
-    margin: 10px;
+    margin: 15px;
     font-family: Open Sans;
 }
 .contenedor5 {
@@ -188,4 +194,5 @@ h3 {
 } 
 .contenedor0 {
     border: 2px solid gray;
+    border-radius: 10px;
 }
