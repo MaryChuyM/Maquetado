@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .layout {
   display: flex;
   padding-left: 6rem;
@@ -308,9 +312,9 @@ body {
 }
 
 .aside2 {
+  display: none;
   width: 25%;
   height: 500px;
-  display: block;
   background-color: white;
 }
 
@@ -349,7 +353,6 @@ h4 {
 .parr1 {
   color: black;
   font-family: Arial;
-  margin: 20px;
 }
 
 .comment {
@@ -369,21 +372,18 @@ h4 {
   text-decoration: none;
   display: flex;
   font-size: 15px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 85%;
-  margin-bottom: 5px;
+  width: 50px;
   cursor: pointer;
 }
 
 .Coding-link {
   color: black;
-  margin: 10px;
+  margin: 10px 0;
   text-decoration: none;
 }
 
 .comment {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 h3 {
@@ -538,11 +538,21 @@ h3 {
 
 .contenedor0 {
   border: 2px solid gray;
+  background-color: white;
   border-radius: 10px;
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 1100px) {
+  .aside2 {
+    display: block;
+  }
+}
+.father {
+  padding: 10px 20px;
 }
 
 * {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
 }
 
