@@ -4,10 +4,22 @@ body {
 
 .layout {
   display: flex;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1099px) {
+  .layout {
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .layout {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
 body {
   background-color: #ffffff;
   margin: 0;
@@ -20,6 +32,7 @@ body {
   flex-direction: column;
   gap: 20px;
   width: 20%;
+  display: none;
 }
 
 .side-panel-container {
@@ -119,6 +132,17 @@ body {
   color: blue;
 }
 
+@media screen and (min-width: 760px) {
+  .containerAsideOne {
+    display: flex;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .containerAsideOne {
+    width: 20%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .container {
     padding-left: 10px;
@@ -161,7 +185,7 @@ body {
 
 /* estilos de la seccion de en medio*/
 .containerCenter {
-  width: 52%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -311,6 +335,16 @@ body {
   background-color: blue;
 }
 
+@media screen and (min-width: 760px) {
+  .containerCenter {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .containerCenter {
+    width: 50%;
+  }
+}
 .aside2 {
   display: none;
   width: 25%;
@@ -537,7 +571,6 @@ h3 {
 }
 
 .contenedor0 {
-  border: 2px solid gray;
   background-color: white;
   border-radius: 10px;
   padding: 10px 20px;
@@ -580,19 +613,16 @@ nav {
 }
 
 #img {
-  max-width: 100%;
   width: 100px;
   height: 40px;
   -o-object-fit: contain;
      object-fit: contain;
   vertical-align: middle;
   display: inline-block;
-  position: fixed;
   border-radius: 14px;
   border-right: 60px;
   left: 120px;
   top: 15px;
-  padding-bottom: 1rem;
 }
 
 #bar {
@@ -602,7 +632,6 @@ nav {
   display: flex;
   padding: 14px;
   border-radius: 8px;
-  position: fixed;
   left: 200px;
   top: 14px;
   border: 1px solid rgb(218, 218, 218);
@@ -648,7 +677,7 @@ nav {
 }
 @media (max-width: 1200px) {
   #bar {
-    width: 30%;
+    width: 100%;
   }
 }
 @media (max-width: 710px) {
@@ -658,18 +687,14 @@ nav {
 }
 @media (max-width: 710px) {
   #img {
-    max-width: 100%;
-    width: 80px;
-    height: 40px;
+    width: 150px;
     -o-object-fit: contain;
        object-fit: contain;
     vertical-align: middle;
-    display: inline-block;
-    position: fixed;
-    border-radius: 14px;
     border-right: 60px;
     left: 35px;
     top: 15px;
+    padding-bottom: 0;
   }
 }
 @media (max-width: 710px) {

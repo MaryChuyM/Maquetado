@@ -1,12 +1,26 @@
 body {
     font-family:"Roboto", sans-serif;
 }
+
 .layout {
     display: flex;
-    padding-left: 6rem;
-    padding-right: 6rem
+    padding-top:2rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
+@media screen and (min-width:700px) and (max-width:1099px) {
+    .layout{
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .layout{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
 @import "asidecontent";
 @import "maincontent";
 @import "rightaside";
